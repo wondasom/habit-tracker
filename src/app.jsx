@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './app.css';
-
 import Habits from './components/habits';
 import NavBar from './components/navbar';
 
@@ -52,7 +51,6 @@ class App extends Component {
 				<NavBar
 					totalCount={this.state.habits.filter((item) => item.count > 0).length}
 				></NavBar>
-
 				<Habits
 					habits={this.state.habits}
 					onIncrement={this.handleIncrement}
