@@ -1,13 +1,12 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 
-class NavBar extends Component {
+class NavBar extends PureComponent {
 	render() {
-		const { totalCount } = this.props;
 		return (
 			<nav className='navbar'>
 				<i className='navbar-logo fas fa-leaf'></i>
 				<span>Habit Tracker</span>
-				<span className='navbar-count'>{totalCount}</span>
+				<span className='navbar-count'>{this.props.totalCount}</span>
 			</nav>
 		);
 	}
