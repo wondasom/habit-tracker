@@ -1,4 +1,4 @@
-# [Business Card Maker 📇](https://dasom-card-maker.netlify.app/) 
+# [Habit Tracker](https://dasom-habit-tracker.netlify.app/) 
 List style item tracking application with a counting feature
 
 ## 🎨 Design Requirement
