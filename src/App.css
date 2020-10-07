@@ -1,103 +1,138 @@
 * {
-  box-sizing: border-box;
-}* {
-  box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+ul {
+	margin-block-start: 0;
+	margin-block-end: 0;
+	padding-inline-start: 0;
+}
+
+.App {
+	width: 46em;
+	margin: 5vh auto;
+	box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+  padding: 2em 0;
 }
 
 button {
-  outline: none;
-  border: 0;
-  cursor: pointer;
+	outline: none;
+	border: 0;
+	cursor: pointer;
 }
 
 .navbar {
-  font-size: 2rem;
-  padding: 1em;
-  background-color: cornflowerblue;
+	border-radius: 20px 20px 0 0;
+	font-size: 2rem;
+	padding: 1em;
+	background-color: #223f8d;
+	color: #fcfcfc;
+	text-align: center;
 }
 
 .navbar-logo {
-  color: green;
-  margin-right: 0.5em;
+	color: #69b4a0;
+	margin-right: 0.5em;
 }
 
 .navbar-count {
-  display: inline-block;
-  text-align: center;
-  font-size: 2rem;
-  width: 2.5rem;
-  height: 2.5rem;
-  line-height: 2.5rem;
-  margin-left: 0.2em;
-  background-color: green;
-  color: white;
-  border-radius: 50%;
+	display: inline-block;
+	text-align: center;
+	font-size: 2rem;
+	width: 2.5rem;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	margin-left: 0.2em;
+	background-color: #69b4a0;
+	color: white;
+	border-radius: 50%;
 }
 
 .habits {
-  padding: 0.5em;
-  padding-top: 2em;
+	padding: 0.5em;
+	padding-top: 2em;
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+  align-items: center;
+  margin: 1em auto;
+  margin-bottom: 1em;
+}
+
+.add-form {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .add-input {
-  font-size: 2rem;
+	font-size: 2rem;
 }
 
 .add-input {
-  margin-right: 0.2em;
+	margin-right: 0.2em;
 }
 
 .add-button {
-  height: 100%;
-  font-size: 1.5rem;
-  padding: 0.3em 0.5em;
-  background-color: green;
-  color: white;
+	height: 100%;
+	font-size: 1.5rem;
+	padding: 0.3em 0.5em;
+	background-color: #69b4a0;
+	color: white;
+	border-radius: 10px;
 }
 
 .habit {
-  font-size: 2.5rem;
-  padding: 0.5em;
-  list-style: none;
+	font-size: 2rem;
+	padding: 0.6em;
+	list-style: none;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
 }
 
 .habit-count {
-  display: inline-block;
-  text-align: center;
-  font-size: 2rem;
-  width: 2.5rem;
-  height: 2.5rem;
-  line-height: 2.5rem;
-  margin-left: 0.2em;
-  margin-right: 0.5em;
-  background-color: darkseagreen;
-  color: white;
-  border-radius: 50%;
+	display: inline-block;
+	text-align: center;
+	font-size: 2rem;
+	width: 2.5rem;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	margin-left: 0.2em;
+	margin-right: 0.5em;
+	background-color: #69b4a0;
+	color: white;
+	border-radius: 50%;
 }
 
 .habit-button {
-  font-size: 2.5rem;
-  margin: 0 0.1em;
-  background-color: transparent;
+	font-size: 2.5rem;
+	margin: 0 0.1em;
+	background-color: transparent;
 }
 
 .habit-button:hover {
-  opacity: 0.8;
+	opacity: 0.8;
 }
 
 .habit-increase,
 .habit-decrease {
-  color: goldenrod;
+	color: #ffbe4d;
 }
 
 .habit-delete {
-  font-size: 2rem;
-  color: darkred;
+	font-size: 2rem;
+	color: #d84943;
 }
 
 .habits-reset {
-  font-size: 1.5rem;
-  padding: 0.2em 1em;
-  background-color: green;
-  color: white;
+	font-size: 1.5rem;
+	padding: 0.3em 0.5em;
+	background-color: #69b4a0;
+	color: white;
+	border-radius: 10px;
+	width: 6em;
+	margin-top: 0.3em;
 }
